@@ -25,7 +25,7 @@ def clean [
 ] {
   ls $path | each { |it|
     if $verbose {
-      clean_it $it --depth ($depth) --verbose
+      clean_it $it --depth ($depth) --verbose ($verbose)
     } else {
       clean_it $it --depth ($depth)
     }
