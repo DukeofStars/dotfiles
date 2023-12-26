@@ -1,0 +1,3 @@
+[my-plugin]
+cmd = "cargo"
+triggers = [{ file = "myplugin" }]
