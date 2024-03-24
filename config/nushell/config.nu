@@ -761,4 +761,6 @@ $env.config = {
 }
 
 # Starship
-use ~/.cache/starship/init.nu
+source ~/.cache/starship/init.nu
+# Jujutsu
+source ~/.cache/jj/completions-jj.nu
