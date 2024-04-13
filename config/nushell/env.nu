@@ -80,7 +80,7 @@ $env.NU_PLUGIN_DIRS = [
 alias rget = rs-get
 
 # Scripts
-source ~/scripts/clean.nu
+use ~/scripts/clean.nu
 
 # Starship
 mkdir ~/.cache/starship
