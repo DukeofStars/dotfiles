@@ -1,0 +1,6 @@
+excluded_dirs = [
+    "**/Archive/**/*",
+    "**/OTHER/**/*", 
+    "**/Starter Fleets - Alliance/**/*", 
+    "**/Starter Fleets - Protectorate/**/*",
+]
