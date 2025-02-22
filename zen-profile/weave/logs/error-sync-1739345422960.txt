@@ -1,0 +1,22 @@
+1739342696183	Sync.LogManager	DEBUG	Flushing file log
+1739342696197	Sync.LogManager	DEBUG	Log cleanup threshold time: 1738478696197
+1739342696207	Sync.LogManager	DEBUG	Done deleting files.
+1739345420230	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1739345420230	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1739345420231	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1739345422941	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1739345422941	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1739345422943	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1739345422946	Sync.Service	DEBUG	User-Agent: Zen/1.7.6b (Windows NT 10.0; Win64; x64) FxSync/1.137.0.20250207111303.desktop
+1739345422946	Sync.Service	INFO	Starting sync at 2025-02-12 18:30:22 in browser session qxdG2NMRtdpq
+1739345422946	Sync.Service	DEBUG	In sync: should login.
+1739345422946	Sync.Service	INFO	User logged in successfully - verifying login.
+1739345422946	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState has no FxA user
+1739345422946	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1739345422947	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1739345422947	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.no_username
+1739345422947	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1739345422958	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1739345422958	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1739345422959	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.no_username(resource://services-sync/service.sys.mjs:1041:15) JS Stack trace: onNotify@service.sys.mjs:1041:15
+1739345422959	Sync.Service	DEBUG	Not syncing: login returned false.

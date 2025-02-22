@@ -1,0 +1,23 @@
+1740003057604	Sync.LogManager	DEBUG	Flushing file log
+1740003057631	Sync.LogManager	DEBUG	Log cleanup threshold time: 1739139057630
+1740003057661	Sync.LogManager	DEBUG	Done deleting files.
+1740010108688	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1740010108688	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1740010108690	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1740010109651	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1740010109928	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1740010109928	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1740010109942	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1740010109998	Sync.Service	DEBUG	User-Agent: Zen/1.7.6b (Windows NT 10.0; Win64; x64) FxSync/1.137.0.20250207111303.desktop
+1740010109998	Sync.Service	INFO	Starting sync at 2025-02-20 11:08:29 in browser session GhmhYFfEx02n
+1740010109998	Sync.Service	DEBUG	In sync: should login.
+1740010109998	Sync.Service	INFO	User logged in successfully - verifying login.
+1740010109999	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState has no FxA user
+1740010109999	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1740010109999	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1740010109999	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.no_username
+1740010109999	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1740010109999	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1740010109999	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1740010109999	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.no_username(resource://services-sync/service.sys.mjs:1041:15) JS Stack trace: onNotify@service.sys.mjs:1041:15
+1740010109999	Sync.Service	DEBUG	Not syncing: login returned false.

@@ -1,0 +1,3 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+www-reddit-com.translate.goog:443:	OID.2.16.840.1.101.3.4.2.1	05:44:10:6D:93:76:11:1F:41:19:65:31:D6:1F:4F:2C:60:A1:0B:6A:CA:48:A9:68:AC:B2:1D:32:84:C6:19:96	
